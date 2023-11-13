@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style css/style.css">
+   <link rel="stylesheet" href="style css/all.min.css">
+   <link rel="stylesheet" href="style css/bootstrap.min.css">
+   <link rel="stylesheet" href="style css/bootstrap.min.css.map">
+
+</head>
+
+<body>
+   <div class="container "  id="calculaor">
+      <h1 class="text-center text-black" id="head">BMI Calculater</h1>
+      <form action="" name="from1" onsubmit="return(validate())">
+         <table class="tab ">
+            <tr>
+               <th>Heigt(CM):</th>
+            </tr>
+            <tr>
+               <td>
+                  <input name="hight" type="text"  class="hight">
+                  <p class="text-danger" id= "hight" ></p>
+               </td>
+            </tr>
+            <tr>
+               <th>Weight(KG):</th>
+            </tr>
+            <tr>
+               <td>
+                  <input name="weight" type="text"  class="hight">
+                  <p class="text-danger" id= "weight" ></p>
+               </td>
+            </tr>
+         </table>
+      </form>
+      <div class="text-center">
+         <input name="onsubmit" type="submit" class="hight btn-primary mt-5 pb-5" value="calculate" onclick='return(validate())'>
+      </div>
+   <p class=" mt-4">Your BMI is: </p>
+   <p class="text-success" id = "print" ></p>
+   </div>
+
+
+
+
+
+
+
+   <script src="project_js/pro.js"></script>
+   <script src="project_js/all.min.js"></script>
+   <script src="project_js/bootstrap.bundle.min.js"></script>
+   <script src="project_js/bootstrap.bundle.min.js.map"></script>
+</body>
+
+</html>
